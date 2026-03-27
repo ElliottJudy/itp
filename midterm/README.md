@@ -168,6 +168,7 @@ function draw() {
   }
 }
 ```
+
 2. At this point I was pretty much trying random things. I figured part of the reason it probably wasnt showing anything was that in the draw object grid/100 would be super small. I relised it probably would need to be just the regular grid value but in the for statments the need the actual pixel size of the cell so that when they move past that cell thats when they will make another. I came up with this code and now it just made one really big picture. 
 ```javascript
 function setup() {
@@ -205,6 +206,7 @@ function draw() {
   }
 }
 ```
+
 3. At this point I decided I couldnt figure it out and I asked chat gpt how to do it. It gave me this code and sure enough it worked. Im not really sure why i have to make another x and y variable and multiply it by the size of the cell. Its really confusing to me but I wasnt as far off as I thought I was. 
 ```
 let grid;
