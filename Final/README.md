@@ -151,7 +151,7 @@ if hit
 	instance_destroy(hit)
 	instance_destroy()
 }
-
+```
 ##Extras
 Since making the projecticle wasnt as hard as I thought it would be, I wanted to add a few more things to make this a game someone could actually play. The first thing I wanted to do was make the enemys spawn periodically and after you kill so many of them they will start to spawn faster and faster. I also wanted them to spawn in 3 different posistions on the map. I grindined this part out without doccumenting alot but through a lot of syntax errors and looking at the game maker manual I made this sphagetti code for the game room to make all this happen. 
 ```
